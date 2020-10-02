@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Official CookIt</string>
+    <string name="app_name">RecipeAPP</string>
+    <string name="txt_recipe_name">Chicken</string>
+    <string name="txt_description">Chicken is so delicious</string>
 </resources>
