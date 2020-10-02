@@ -4,7 +4,7 @@
     <string name="txt_description">Chicken is so delicious</string>
 
     <!-- +++++++++++++++++++++++++ START ++++++++++++++++++++++++++++++++++++ -->
-    <!--   NAVIGATION BAR   -->
+    <!--  navigation bar -->
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -16,10 +16,8 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
 
-    <!-- header main vision-->
-    <string name="vision">Make your meal with cooKiT</string>
+    <string name="vision">Make your meal with cooKiT</string> <!-- header main vision-->
 
-    <!-- main drawer-->
     <string name="User_Profile">User Profile</string>
     <string name="Recipe_Feed">Recipe Feed</string>
     <string name="Search">Search</string>
@@ -43,6 +41,19 @@
         Cookit application is a trusted place that people can share their recipes with each other."</string>
     <string name="aboutUspage">About Us</string>
     <string name="aboutUs1">Version 1.0</string>
+
+    <!-- User profile (add detail,update,retrieve)-->
+    <string name="ProfileUserName">Name</string>
+    <string name="ProfileEMail">E-mail</string>
+    <string name="ProfileUserLocation">Location</string>
+    <string name="ProfileUserPassword">Password</string>
+    <string name="EditProfileBtn">Edit Profile</string>
+    <string name="DeleteProfileBtn">Delete Profile</string>
+    <string name="EditSaveChangers">Save Changers</string>
+    <string name="EditCancel">Cancel</string>
+    <string name="AddDetails">Add Details</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="DOB">Date of Birth</string>
 
 
 </resources>
