@@ -1,4 +1,4 @@
-package com.example.newnavigationbar.ui.home;
+package com.example.officialcookit.ui.home;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
