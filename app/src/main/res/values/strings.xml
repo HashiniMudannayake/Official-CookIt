@@ -35,6 +35,14 @@
     <string name="About_Us">About Us</string>
     <string name="Contest">Contest</string>
 
-    <!-- +++++++++++++++++++++++++ END ++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- About Us-->
+    <string name="aboutUs">Just cook it, We take care of your daily recipe needs. So effetely
+        that you get to cook variety of delicious like pro chef. We want to give you a secure and
+        friendly cooking latform that anyone can share and follow each other most of all, We Share
+        the warmth of family recipes reachable from anywhere. Founder in August 2020 and base in Sri Lanka.
+        Cookit application is a trusted place that people can share their recipes with each other."</string>
+    <string name="aboutUspage">About Us</string>
+    <string name="aboutUs1">Version 1.0</string>
+
 
 </resources>
