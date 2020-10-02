@@ -16,12 +16,12 @@ import com.example.newnavigationbar.R;
 
 public class GalleryFragment extends Fragment {
 
-    private GalleryViewModel galleryViewModel;
+    private com.example.newnavigationbar.ui.gallery.GalleryViewModel galleryViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         galleryViewModel =
-                ViewModelProviders.of(this).get(GalleryViewModel.class);
+                ViewModelProviders.of(this).get(com.example.newnavigationbar.ui.gallery.GalleryViewModel.class);
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
         final TextView textView = root.findViewById(R.id.text_gallery);
         galleryViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
