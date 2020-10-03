@@ -14,7 +14,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center"
-        android:src="@drawable/loginValid" />
+        android:src="@drawable/loginValid"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,7 +23,7 @@
         android:fontFamily="monospace"
         android:text="Hello there welcome Back"
         android:textColor="#fff"
-        android:textSize="25sp" />
+        android:textSize="25sp"/>
 
     <TextView
         android:layout_width="wrap_content"
