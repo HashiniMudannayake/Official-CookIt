@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#201E1E"
     android:backgroundTint="#151515"
     tools:context=".Upload_Recipe">
 
@@ -36,7 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="20dp"
-            android:hint="@string/txt_description"
+            android:hint="description"
             android:textColor="@color/common_google_signin_btn_text_dark_focused"
             android:textSize="19sp" />
 
