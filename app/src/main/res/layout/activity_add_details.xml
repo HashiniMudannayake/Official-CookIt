@@ -91,7 +91,6 @@
             android:hint="Password"
             android:textColorHint="#fff"
             app:counterEnabled="true"
-            app:counterTextColor="#fff"
             app:counterMaxLength="8"
             app:passwordToggleEnabled="true"/>
 

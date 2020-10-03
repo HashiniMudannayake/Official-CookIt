@@ -14,7 +14,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center"
-        android:src="@drawable/loginValid" />
+        android:src="@drawable/loginvalid" />
 
     <TextView
         android:layout_width="wrap_content"
