@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutus"
+    tools:context=".AboutUs">
+
+    <ImageButton
+        android:id="@+id/homeBtn"
+        android:layout_width="56dp"
+        android:layout_height="59dp"
+        android:background="#00F1F1F1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176"
+        app:srcCompat="@drawable/ic_home"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/backBtn"
+        android:layout_width="56dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="352dp"
+        android:background="#00F1F1F1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176"
+        app:srcCompat="@drawable/ic_arrowback"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="410dp"
+        android:layout_height="670dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/aboutUsTopic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="576dp"
+            android:background="#00000000"
+            android:fontFamily="@font/bevan"
+            android:foregroundGravity="top|left"
+            android:gravity="top|left"
+            android:paddingTop="70dp"
+            android:text="@string/aboutUspage"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            tools:ignore="RtlCompat"
+            tools:includeFontPadding="false" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#000000"
+        android:text="@string/aboutUs1"
+        android:textColor="#ECE6E6"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutUsDesc"
+        app:layout_constraintVertical_bias="0.904" />
+
+    <TextView
+        android:id="@+id/aboutUsDesc"
+        android:layout_width="348dp"
+        android:layout_height="376dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="90dp"
+        android:fontFamily="@font/autour_one"
+        android:text="@string/aboutUs"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

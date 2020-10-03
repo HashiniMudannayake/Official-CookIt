@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    android:backgroundTint="#151515"
+    android:backgroundTintMode="screen"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/ivImage2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image" />
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Chicken "
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/txtDescription2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Chicken is so delicious"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="19sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:background="?android:attr/colorEdgeEffect"
+                android:text="Edit"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:background="?android:attr/colorEdgeEffect"
+            android:text="Delete" />
+
+    </LinearLayout>
+
+</LinearLayout>
