@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#201E1E"
     android:orientation="vertical"
     tools:context=".User_Profile">
 
-    <include layout="@layout/toolbar_user_profile"/>
+    <include layout="@layout/toolbar_user_profile" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,8 +36,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingLeft="15dp"
@@ -72,17 +72,17 @@
         android:id="@+id/view2"
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="@android:color/darker_gray"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@android:color/darker_gray" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingLeft="15dp"
@@ -98,7 +98,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="@string/ProfileEMail"
+            android:text="EMail"
             android:textColor="#fff"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -117,18 +117,18 @@
         android:id="@+id/view3"
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="@android:color/darker_gray"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@android:color/darker_gray" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
         android:gravity="center_vertical"
-        android:layout_marginStart="40dp"
         android:orientation="horizontal"
         android:paddingLeft="15dp"
         android:paddingRight="15dp">
@@ -136,14 +136,14 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/ic_location"/>
+            android:src="@drawable/ic_location" />
 
         <TextView
             android:id="@+id/userLocation"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="@string/ProfileUserLocation"
+            android:text="Location"
             android:textColor="#fff"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -162,17 +162,17 @@
         android:id="@+id/view4"
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="@android:color/darker_gray"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@android:color/darker_gray" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="20dp"
         android:gravity="center_vertical"
-        android:layout_marginStart="40dp"
         android:orientation="horizontal"
         android:paddingLeft="15dp"
         android:paddingRight="15dp">
@@ -180,14 +180,14 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/ic_password"/>
+            android:src="@drawable/ic_password" />
 
         <TextView
             android:id="@+id/userPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="@string/ProfileUserPassword"
+            android:text="Password"
             android:textColor="#fff"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -206,14 +206,14 @@
         android:id="@+id/view5"
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="@android:color/darker_gray"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"/>
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@android:color/darker_gray" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="140dp"
+        android:layout_height="200dp"
         android:layout_marginTop="0dp"
         android:orientation="vertical">
 
@@ -223,12 +223,12 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginLeft="-10sp"
-            android:layout_marginTop="13dp"
-            android:background="@drawable/bg_btn"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/btn_background"
             android:drawableLeft="@drawable/ic_edit"
             android:gravity="center"
             android:paddingLeft="20dp"
-            android:text="@string/EditProfileBtn"
+            android:text="Edit Profile"
             android:textColor="#fff"
             android:textSize="18sp" />
 
@@ -238,12 +238,12 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginLeft="-10dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="25dp"
             android:background="@drawable/bg_btn"
             android:drawableLeft="@drawable/ic_delete"
             android:gravity="center"
             android:paddingLeft="20dp"
-            android:text="@string/DeleteProfileBtn"
+            android:text="DeleteProfile"
             android:textColor="#fff"
             android:textSize="18sp" />
 
