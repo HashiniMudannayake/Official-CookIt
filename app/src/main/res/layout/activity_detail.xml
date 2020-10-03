@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:padding="20dp"
-        android:text="Chicken "
+        android:text="Chicken"
         android:textColor="@color/common_google_signin_btn_text_dark_default"
         android:textSize="19sp" />
 
@@ -32,6 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:background="#201E1E"
         android:padding="20dp"
         android:text="Chicken is so delicious"
         android:textColor="@color/common_google_signin_btn_text_dark_default"
@@ -40,6 +41,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#201E1E"
         android:orientation="vertical">
 
         <LinearLayout

@@ -24,16 +24,6 @@
             android:layout_height="110dp"
             android:src="@drawable/user" />
 
-        <TextView
-            android:id="@+id/profileTopic"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Bradely James"
-            android:textColor="#fff"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
         <View
             android:id="@+id/view1"
             android:layout_width="match_parent"
@@ -63,17 +53,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="@string/ProfileUserName"
+            android:text="User Name"
             android:textColor="#fff"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/displayUserName"
-            android:layout_width="wrap_content"
+            android:id="@+id/UserName"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="45dp"
-            android:text="Bradely James"
             android:textColor="@android:color/darker_gray"
             android:textSize="18sp" />
 
@@ -115,11 +104,10 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/displayEmail"
-            android:layout_width="wrap_content"
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="45dp"
-            android:text="bradely@gmail.com"
             android:textColor="@android:color/darker_gray"
             android:textSize="18sp" />
 
@@ -161,11 +149,10 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/displayUserLocation"
-            android:layout_width="wrap_content"
+            android:id="@+id/Location"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="22dp"
-            android:text="England"
             android:textColor="@android:color/darker_gray"
             android:textSize="18sp" />
 
@@ -206,11 +193,10 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/displayUserPassword"
-            android:layout_width="wrap_content"
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="22dp"
-            android:text="abc123"
             android:textColor="@android:color/darker_gray"
             android:textSize="18sp" />
 

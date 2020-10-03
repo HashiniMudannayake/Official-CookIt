@@ -1,6 +1,61 @@
 <resources>
     <string name="app_name">Official CookIt</string>
 
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">CooKiT Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!-- header main vision-->
+    <string name="vision">Make your meal with cooKiT</string>
+
+    <!-- main drawer-->
+    <string name="User_Profile">User Profile</string>
+    <string name="Recipe_Feed">Recipe Feed</string>
+    <string name="Search">Search</string>
+    <string name="Add_Post">Add Post</string>
+    <string name="Chat">Chat</string>
+    <string name="Healthy_Life">Healthy Life</string>
+    <string name="Step_Counter">Step Counter</string>
+    <string name="BMI_Counter">BMI Value Counter</string>
+    <string name="Other">Other</string>
+    <string name="Log_Out">Log Out</string>
+    <string name="Settings">Settings</string>
+    <string name="Terms_and_Conditions">Terms and Conditions</string>
+    <string name="About_Us">About Us</string>
+    <string name="Contest">Contest</string>
+
+    <!-- About Us-->
+    <string name="aboutUs">Just cook it, We take care of your daily recipe needs. So effetely
+        that you get to cook variety of delicious like pro chef. We want to give you a secure and
+        friendly cooking latform that anyone can share and follow each other most of all, We Share
+        the warmth of family recipes reachable from anywhere. Founder in August 2020 and base in Sri Lanka.
+        Cookit application is a trusted place that people can share their recipes with each other."</string>
+    <string name="aboutUspage">About Us</string>
+    <string name="aboutUs1">Version 1.0</string>
+
+    <!-- User profile (add detail,update,retrieve)-->
+    <string name="ProfileUserName">Name</string>
+    <string name="ProfileEMail">E-mail</string>
+    <string name="ProfileUserLocation">Location</string>
+    <string name="ProfileUserPassword">Password</string>
+    <string name="EditProfileBtn">Edit Profile</string>
+    <string name="DeleteProfileBtn">Delete Profile</string>
+    <string name="EditSaveChangers">Save Changers</string>
+    <string name="EditCancel">Cancel</string>
+    <string name="AddDetails">Add Details</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="DOB">Date of Birth</string>
+
+
+
+
     <string name="appName">CookIt</string>
     <string name="WelcomeMssg">Food Hub</string>
     <string name="emailHint">Email</string>
