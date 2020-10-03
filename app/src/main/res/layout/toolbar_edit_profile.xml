@@ -21,8 +21,6 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_alignParentStart="true"
-            android:duplicateParentStart="true"
             android:contentDescription="@string/EditProfile"
             android:src="@drawable/ic_arrow_back" />
 
