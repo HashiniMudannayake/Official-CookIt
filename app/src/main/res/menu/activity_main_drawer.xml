@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="@string/User_Profile" />
+
+        <item
+            android:id="@+id/nav_recipefeed"
+            android:icon="@drawable/recipe_feed"
+            android:title="@string/Recipe_Feed" />
+
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search"
+            android:title="@string/Search" />
+
+        <item
+            android:id="@+id/nav_addpost"
+            android:icon="@drawable/add_post"
+            android:title="@string/Add_Post" />
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/chat"
+            android:title="@string/Chat" />
+
+        <item
+            android:id="@+id/nav_contest"
+            android:icon="@drawable/context"
+            android:title="@string/Contest" />
+
+        <group android:checkableBehavior="single">
+            <item android:title="@string/Healthy_Life">
+
+                <menu>
+
+                    <item
+                        android:id="@+id/nav_walk"
+                        android:icon="@drawable/walk"
+                        android:title="@string/Step_Counter" />
+
+                    <item
+                        android:id="@+id/nav_measure"
+                        android:icon="@drawable/measure"
+                        android:title="@string/BMI_Counter" />
+
+                </menu>
+
+            </item>
+
+        </group>
+
+        <group android:checkableBehavior="single">
+            <item android:title="@string/Other">
+
+                <menu>
+
+                    <item
+                        android:id="@+id/nav_logout"
+                        android:icon="@drawable/logout"
+                        android:title="@string/Log_Out" />
+
+                    <item
+                        android:id="@+id/nav_settings"
+                        android:icon="@drawable/settings"
+                        android:title="@string/Settings" />
+
+                    <item
+                        android:id="@+id/nav_termsAndcondition"
+                        android:icon="@drawable/terms_and_condi"
+                        android:title="@string/Terms_and_Conditions" />
+
+                    <item
+                        android:id="@+id/nav_about"
+                        android:icon="@drawable/about"
+                        android:title="@string/About_Us" />
+                </menu>
+            </item>
+        </group>
+    </group>
+</menu>
