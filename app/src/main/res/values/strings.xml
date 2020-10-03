@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Official CookIt</string>
+    <string name="app_name">CookIt</string>
+    <string name="appName">CookIt</string>
+    <string name="WelcomeMssg">Food Hub</string>
+    <string name="emailHint">Email</string>
+    <string name="passwdHint">Password</string>
+    <string name="newUsr">New User? Sign Up</string>
+    <string name="logBtn">Login</string>
 </resources>
