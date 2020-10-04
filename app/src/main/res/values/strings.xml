@@ -53,18 +53,6 @@
     <string name="EditProfile">Edit Profile</string>
     <string name="DOB">Date of Birth</string>
 
+    <string name="Chicken">Date of Birth</string>
 
-
-
-    <string name="appName">CookIt</string>
-    <string name="WelcomeMssg">Food Hub</string>
-    <string name="emailHint">Email</string>
-    <string name="passwdHint">Password</string>
-    <string name="newUsr">New User? Sign Up</string>
-    <string name="logBtn">Login</string>
-    <string name="fullNmHint">Full Name</string>
-    <string name="usrNmHint">Username</string>
-    <string name="regbttn">Sign Up</string>
-    <string name="already">Already a user? Sign in</string>
-    <string name="logbttn">Sign in</string>
 </resources>

@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
 
         android:ems="10"
-        android:hint="@string/fullNmHint"
+        android:hint="fullNmHint"
         android:inputType="textPersonName"
 
         android:textColorHint="#AEABAB"
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
 
         android:ems="10"
-        android:hint="@string/emailHint"
+        android:hint="emailHint"
         android:inputType="textEmailAddress"
 
         android:textColorHint="#AEABAB"
@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
 
         android:ems="10"
-        android:hint="@string/usrNmHint"
+        android:hint="usrNmHint"
         android:inputType="textPersonName"
 
         android:textColorHint="#AEABAB"
@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
 
         android:ems="10"
-        android:hint="@string/passwdHint"
+        android:hint="passwdHint"
         android:inputType="textPassword"
 
         android:textColorHint="#AEABAB"
@@ -92,7 +92,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button_bg"
-        android:text="@string/regbttn"
+        android:text="regbttn"
         android:textColor="#fff"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -106,7 +106,7 @@
         android:id="@+id/createText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/already"
+        android:text="already"
         android:textColor="#FAFAFA"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

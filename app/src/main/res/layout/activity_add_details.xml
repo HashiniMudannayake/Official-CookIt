@@ -21,7 +21,7 @@
             android:id="@+id/profile_image"
             android:layout_width="110dp"
             android:layout_height="110dp"
-            android:src="@drawable/foodAdd" />
+            android:src="@drawable/foodadd" />
 
         <View
             android:id="@+id/view1"
@@ -91,25 +91,25 @@
             android:hint="Password"
             android:textColorHint="#fff"
             app:counterEnabled="true"
-            app:counterTextColor="#fff"
             app:counterMaxLength="8"
-            app:passwordToggleEnabled="true">
+            app:passwordToggleEnabled="true"/>
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword" />
 
-        </com.google.android.material.textfield.TextInputLayout>
+
 
     </LinearLayout>
 
     <Button
+        android:id="@+id/addDetailsSubmit"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:background="@drawable/btn_background"
-        android:text="@string/AddDetails"
+        android:text="Add Details"
         android:textColor="#fff"
         android:textSize="20dp" />
 
