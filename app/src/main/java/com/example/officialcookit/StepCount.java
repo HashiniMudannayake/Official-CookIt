@@ -34,7 +34,8 @@ public class StepCount extends AppCompatActivity {
                     float y_acceleration=sensorEvent.values[1];
                     float z_acceleration=sensorEvent.values[2];
 
-                    double Magnitude = Math.sqrt(x_acceleration*y_acceleration + y_acceleration*y_acceleration + z_acceleration * z_acceleration);
+                    double Magnitude = Math.sqrt(x_acceleration*y_acceleration +
+                            y_acceleration*y_acceleration+ z_acceleration * z_acceleration);
                     double MagnitudeDelta=Magnitude-MagnitudePrevious;
                     MagnitudePrevious=Magnitude;
 
