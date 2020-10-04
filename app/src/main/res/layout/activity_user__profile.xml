@@ -227,6 +227,7 @@
             android:background="@drawable/btn_background"
             android:drawableLeft="@drawable/ic_edit"
             android:gravity="center"
+            android:onClick="updateSaveChangers"
             android:paddingLeft="20dp"
             android:text="Edit Profile"
             android:textColor="#fff"

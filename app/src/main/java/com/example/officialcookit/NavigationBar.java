@@ -1,4 +1,4 @@
-package com.example.newnavigationbar;
+package com.example.officialcookit;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,10 +9,12 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -21,22 +23,26 @@ import com.google.android.material.snackbar.Snackbar;
 
 public class NavigationBar extends AppCompatActivity {
 
-    private AppBarConfiguration mAppBarConfiguration;
+    private AppBaConfiguration mAppBarConfiguration;
+    Button callAddDetails;
 
+    //-------call to AddDetails
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_bar);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+
+        callAddDetails = findViewById(R.id.nav_profile);
+        callAddDetails.setOnClickListener(new View.OnClickListener(){
+
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Intent intent = new Intent(NavigationBar.this,AddDetails.class);
+                startActivity(intent);
             }
         });
+        //------end Adddetail calling
+
         final DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
