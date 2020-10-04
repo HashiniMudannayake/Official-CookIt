@@ -3,4 +3,5 @@
     <color name="colorPrimary">#FF7700</color>
     <color name="colorPrimaryDark">#111</color>
     <color name="colorAccent">#FF7700</color>
+    <color name="chatBg">#2E2C2E</color>
 </resources>
