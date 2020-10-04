@@ -12,8 +12,8 @@ import static org.junit.Assert.*;
 
 //bmi cal unit testing
 public class ExampleUnitTest {
-    float weightValue = 20;
-    float heightValue=1;
+    float weightValue;
+    float heightValue;
 
     float BMI = weightValue / (heightValue * heightValue);
     @Test
