@@ -33,5 +33,5 @@
         android:adjustViewBounds="false"
         android:contentDescription="@string/app_name"
         android:padding="3dp"
-        tools:srcCompat="@drawable/appLogo" />
+        tools:srcCompat="@drawable/applogo" />
 </LinearLayout>
