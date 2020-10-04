@@ -24,16 +24,16 @@ import com.google.android.material.snackbar.Snackbar;
 public class NavigationBar extends AppCompatActivity {
 
     private AppBaConfiguration mAppBarConfiguration;
-    Button callUserProfile;
+    Button callAddDetails;
 
-    //-------call to user profile
+    //-------call to AddDetails
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_bar);
 
-        callUserProfile = findViewById(R.id.nav_profile);
-        callUserProfile.setOnClickListener(new View.OnClickListener(){
+        callAddDetails = findViewById(R.id.nav_profile);
+        callAddDetails.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View view) {
@@ -41,8 +41,8 @@ public class NavigationBar extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        //------end Adddetail calling
 
-        //------end user profile calling
         final DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each

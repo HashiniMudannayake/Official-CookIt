@@ -19,6 +19,7 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
 public class ValidateDetails extends AppCompatActivity {
+    public Button callUserProfile;
 
     Button validate;
     ImageView image;
@@ -29,6 +30,16 @@ public class ValidateDetails extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_validate_details);
+
+        //--- calling user Profile
+        callUserProfile = (Button) findViewById(R.id.editProfileBtn);
+        callUserProfile.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(ValidateDetails.this,User_Profile.class);
+                startActivity(intent);
+            }
+        });//-----end calling userprofile
 
         private Boolean validateUserName () {
             String val = validateName.getEditText().getText().toString();
