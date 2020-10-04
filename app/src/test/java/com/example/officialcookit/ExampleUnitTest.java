@@ -9,9 +9,20 @@ import static org.junit.Assert.*;
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
-public class ExampleUnitTest {
-    @Test
-    public void addition_isCorrect() { assertEquals(4, 2 + 2);
-    }
 
+//bmi cal unit testing
+public class ExampleUnitTest {
+    float weightValue = 20;
+    float heightValue=1;
+
+    float BMI = weightValue / (heightValue * heightValue);
+    @Test
+    public void calculation_isCorrect() {
+
+        assertEquals(20,20 / (1 * 1));
+    }
+    @Test
+    public void calculation_isinCorrect() {
+        assertEquals(20, 20 / (1 * 1));
+    }
 }
